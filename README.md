@@ -38,24 +38,30 @@ Open a terminal in the folder and run these commands:
 Bash
 
 # Create a virtual environment
+
 python -m venv venv
 
 # Activate it (on Windows)
+
 venv\Scripts\activate
 
 # Install required packages
+
 pip install Flask gspread oauth2client pandas twilio
 
 
 3. Run the Bot
+   
 Run the app from your terminal:
 
 Bash
 
 python app.py
+
 Run ngrok in a new terminal to get a public URL:
 
 Bash
 
 ngrok http 5000
-Update your webhook. Copy the https:// URL from ngrok, add /webhook to the end, and paste it into your WhatsApp provider's (e.g., Twilio) settings.
+Update your webhook. 
+Copy the https:// URL from ngrok, add /webhook to the end, and paste it into your WhatsApp provider's (e.g., Twilio) settings.
