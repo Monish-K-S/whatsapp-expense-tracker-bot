@@ -45,6 +45,8 @@ venv\Scripts\activate
 
 # Install required packages
 pip install Flask gspread oauth2client pandas twilio
+
+
 3. Run the Bot
 Run the app from your terminal:
 
